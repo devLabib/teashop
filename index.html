@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .head {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+      }
+      .head h1 {
+        font-size: 50px;
+      }
+      .head p {
+        color: #959393;
+      }
+      .head button {
+        background: linear-gradient(to left, red, rgb(227, 132, 24));
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #fff;
+        height: 50px;
+      }
+      .products {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+      }
+      .prohead {
+        text-align: center;
+      }
+      .products p {
+        color: #959393;
+        text-align: center;
+      }
+      .teapro {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        align-content: center;
+      }
+      .teapro-card {
+        background: linear-gradient(to top, #fff, #ece9e9);
+      }
+      .teapro-card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .teapro-card-body {
+        text-align: center;
+      }
+      .protwo {
+        display: flex;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+        gap: 20px;
+      }
+      .ptwoimg {
+        display: flex;
+        height: 400px;
+        margin-top: 20px;
+      }
+      .news {
+        display: flex;
+        margin-bottom: 30px;
+      }
+      .newscard {
+        margin: 10px;
+        border: 1px solid rgb(218, 215, 215);
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .newscard h6 {
+        color: #959393;
+      }
+      .newscard p {
+        text-align: left;
+      }
+      .newscard a {
+        text-decoration: none;
+        color: black;
+      }
+      .bottom {
+        background-color: #e6cccc;
+        
+      }
+      .btthead{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+      .btthead button{
+        background: linear-gradient(to left, red, rgb(227, 132, 24));
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        color: #fff;      
+      }
+      .bttitem{
+        display: flex; 
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+      .quicklinks{
+        margin-right: 200px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        
+      }
+      .quicklinks  li{
+        
+        list-style: none;
+      }
+      .quicklinks input{
+          border-radius: 5px;
+          height: 50px;
+          width: 200px;
+          border: none;
+      }
+      .subscribe{
+        align-items: center;
+        margin-top: 20px;
+      }
+    .rights{
+        text-align: center;
+        font-size: small;
+        color: #343333;
+        
+    }
+    .meet{
+        background: linear-gradient(to left, red, rgb(227, 132, 24));
+        color: #fff;
+        border-radius: 10px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+    }
+    .meetitem{
+        padding: 30px;
+    }
+    .meetitem p{
+        text-align: left;
+        color: #fff;
+    }
+    .meet button{
+        background-color: white;
+        color: linear-gradient(to left, red, rgb(227, 132, 24));
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <div class="pragraph">
+        <h1>
+          It's good <br />
+          tea time at The <br />
+          Tea House
+        </h1>
+        <p>
+          Tea and Botanical Solution Supplier Give Optimum <br />
+          Satisfaction to Your tase buds.
+        </p>
+        <button>Expolre More <img src="arrow.png" width="10px" /></button>
+      </div>
+      <div class="head-img">
+        <img src="banner.png" width="600px" />
+      </div>
+    </div>
+    <div class="products">
+      <h1 class="prohead">Our Featured Products</h1>
+      <p>
+        There are many variations of passages of Lorem Ipsum  available, but the
+        majority have suffered alteration in some form, <br>
+        by injected humour, or randomised words which don't look even slightly
+        believable.
+      </p>
+      <div class="teapro">
+        <div class="teapro-card" style="width: 18rem">
+          <img src="tea-1.png" class="card-img-top" width="100px" />
+          <div class="teapro-card-body">
+            <h3>Milk Tea</h3>
+            <p class="card-text">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="teapro-card" style="width: 18rem">
+          <img src="tea-2.png" class="card-img-top" width="100px" />
+          <div class="teapro-card-body">
+            <h3>Black Tea</h3>
+            <p class="card-text">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="teapro-card" style="width: 18rem">
+          <img src="tea-3.png" class="card-img-top" width="100px" />
+          <div class="teapro-card-body">
+            <h3>Lemon Tea</h3>
+            <p class="card-text">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="teapro-card" style="width: 18rem">
+          <img src="tea-4.png" class="card-img-top" width="100px" />
+          <div class="teapro-card-body">
+            <h3>Green Tea</h3>
+            <p class="card-text">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="protwo">
+      <div class="ptwoimg">   
+        <img src="hello.png"  />
+      </div>
+      <div class="ptwotext">
+        <h2>Great Tea, Freshly Presented</h2>
+        <p>
+          The meaning of gong cha is chanese is to provide the best tea to
+          emperor from all possessions . It represents the highest quality and
+          self expectation. Establishing in 2006, Gong cha had been deeply
+          appreciated by its custoers because of good words of mouth and unique
+          customized service orginated from Taiwan.
+        </p>
+        <br />
+        <h4>Unique Taste</h4>
+        <p>
+          A Unique and different style from other teapots gives a luxurious and
+          minimalist impression
+        </p>
+        <br />
+        <h4>Premium Quality</h4>
+        <p>
+          Premium Quality that makes tea more elegant and more durable when you
+          use it.
+        </p>
+      </div>
+    </div>
+    <div class="meet">
+        <div class="meetitem">
+            <h1>Meet Our Super <br> Clients</h1>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <button>Show All</button>
+        </div>
+      </div>
+    <div class="products">
+      <h1 class="prohead">News & Events</h1>
+      <p>
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority have suffered alteration in some form, by injected humour, or
+        randomised words which don't look even slightly believable.
+      </p>      
+      <div class="news">
+        <div class="newscard">
+          <img src="news-1.png" class="card-img-top" width="300px" />
+          <h6>Feb 08, 2017</h6>
+          <div class="newscard-body">
+            <h5>Collecting 8 points for discount</h5>
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="newscard">
+          <img src="news-2.png" class="card-img-top" width="300px" />
+          <h6>Feb 08, 2017</h6>
+          <div class="newscard-body">
+            <h5>Collecting 8 points for discount</h5>
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="newscard">
+          <img src="news-3.png" class="card-img-top" width="300px" />
+          <h6>Feb 08, 2017</h6>
+          <div class="newscard-body">
+            <h5>Collecting 8 points for discount</h5>
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+        <br><br><br><br>
+      <div class="btthead">
+        <div class="btthead-img"><img src="cup.png" width="50px" /></div>
+        <div class="btthead-text">
+          <h4>Ready to get strated? <button>Get Started</button></h4>
+          
+        </div>
+      </div>
+      <div class="bttitem">
+        <div class="quicklinks">
+            <h3>Quick Links</h3>           
+              <li>Home</li>
+              <br>
+              <li>About Us</li>
+              <br>
+              <li>Insurance</li>
+              <br>
+              <li>Privacy Policy</li>          
+          </div>
+          <div class="quicklinks">
+            <h3>Quick Links</h3>
+              <li>Life Insurance</li>
+              <br>
+              <li>Car Insurance</li>
+              <br>
+              <li>Health Insurance</li>
+              <br>
+              <li>House Insurance</li>
+          </div>
+          <div class="quicklinks">
+            <h3>Help</h3>
+              <li>FAQs</li>
+              <br>
+              <li>Contact Us</li>        
+          </div>
+          <div class="quicklinks">
+            <h3>Subscribe to our <br> newsletter</h3>
+             <input type="mail" placeholder="Email address"> 
+             <br> 
+            <div class="subscribe">
+                <img src="pngaaa.com-2144197.png" width="200px">
+            </div>          
+          </div>
+      </div>
+      <h4 class="rights">© 2027 UIDesign.to - All rights reserved.</h4>
+      <br><br>
+    </div>
+  </body>
+</html>
